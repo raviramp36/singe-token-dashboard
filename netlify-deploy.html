@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Deploy Singe's Dashboard</title>
+    <meta http-equiv="refresh" content="0;url=https://app.netlify.com/start/deploy?repository=https://github.com/raviramp36/singe-token-dashboard">
+    <style>
+        body {
+            font-family: -apple-system, sans-serif;
+            background: #1a1a2e;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .loading {
+            font-size: 1.5em;
+        }
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 3px solid #e94560;
+            border-top-color: transparent;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+    </style>
+</head>
+<body>
+    <div class="loading">
+        <div class="spinner"></div>
+        <p>Redirecting to Netlify...</p>
+        <p style="font-size: 0.8em; color: #888;">If not redirected, <a href="https://app.netlify.com/start/deploy?repository=https://github.com/raviramp36/singe-token-dashboard" style="color: #e94560;">click here</a></p>
+    </div>
+</body>
+</html>
