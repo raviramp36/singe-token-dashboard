@@ -2,11 +2,6 @@
   publish = "dist"
   functions = "netlify/functions"
 
-[dev]
-  command = "python3 token_server.py"
-  port = 8765
-  publish = "dist"
-
 [[redirects]]
   from = "/api/*"
   to = "/.netlify/functions/:splat"
