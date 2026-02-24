@@ -1,0 +1,21 @@
+GITHUB + NETLIFY SETUP - QUICK REFERENCE
+========================================
+
+1. CREATE GITHUB REPO
+   URL: https://github.com/new
+   Name: singe-token-dashboard
+   
+2. PUSH CODE
+   cd /Users/Shared/clawd/dashboard
+   git remote add origin https://github.com/YOUR_USERNAME/singe-token-dashboard.git
+   git push -u origin main
+   
+3. CONNECT NETLIFY
+   URL: https://app.netlify.com
+   Add new site → Import from Git → GitHub
+   Select repo: singe-token-dashboard
+   Build command: (empty)
+   Publish directory: dist
+   
+4. DONE! 🎉
+   Your dashboard will be live instantly!

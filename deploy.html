@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Singe's Token Dashboard - Deploy</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #302b63 100%);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: rgba(255,255,255,0.05);
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            max-width: 500px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        h1 { margin-bottom: 20px; color: #e94560; }
+        .btn {
+            display: inline-block;
+            background: #00d4aa;
+            color: #000;
+            padding: 15px 40px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            margin: 20px 0;
+            transition: transform 0.2s;
+        }
+        .btn:hover { transform: scale(1.05); }
+        .or { margin: 20px 0; color: #888; }
+        .link { 
+            color: #e94560; 
+            word-break: break-all;
+            background: rgba(0,0,0,0.3);
+            padding: 10px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        .steps {
+            text-align: left;
+            background: rgba(0,0,0,0.2);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .steps li { margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🐒 Singe's Token Command Center</h1>
+        <p>Deploy your AI token usage dashboard to Netlify</p>
+        
+        <a href="#manual" class="btn">📦 Manual Deploy (Fastest)</a>
+        
+        <div class="or">— OR —</div>
+        
+        <a href="https://github.com/new" class="btn" style="background: #333; color: #fff;">🔗 Use GitHub First</a>
+        
+        <div class="steps" id="manual">
+            <h3>⚡ Fastest Method (30 seconds):</h3>
+            <ol>
+                <li>Download this file on your Mac:<br>
+                    <div class="link">/Users/Shared/clawd/dashboard/dashboard.zip</div>
+                </li>
+                <li>Go to <a href="https://app.netlify.com/drop" style="color: #00d4aa;">netlify.com/drop</a></li>
+                <li>Drag & drop the zip file</li>
+                <li>Get your live URL instantly!</li>
+            </ol>
+        </div>
+        
+        <p style="margin-top: 30px; color: #888; font-size: 0.9em;">
+            Files prepared at:<br>
+            <span class="link">/Users/Shared/clawd/dashboard/</span>
+        </p>
+    </div>
+</body>
+</html>
