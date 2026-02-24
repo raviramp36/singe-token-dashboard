@@ -1,0 +1,16 @@
+{
+  "name": "singe-token-command-center",
+  "version": "1.0.0",
+  "description": "Singe's Token Command Center - Monitor and manage AI model usage",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Static site, no build needed'",
+    "dev": "netlify dev"
+  },
+  "keywords": ["ai", "tokens", "dashboard", "openclaw"],
+  "author": "Singe",
+  "license": "MIT",
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  }
+}
