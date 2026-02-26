@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Deploy to Netlify</title>
+    <style>
+        body {
+            font-family: -apple-system, sans-serif;
+            background: #0d1117;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .container { max-width: 500px; padding: 40px; }
+        h1 { color: #00d4aa; margin-bottom: 20px; }
+        .btn {
+            display: inline-block;
+            background: #00d4aa;
+            color: #000;
+            padding: 15px 40px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+        .steps {
+            text-align: left;
+            background: #161b22;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .steps li { margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🐒 Deploy Singe's Dashboard</h1>
+        <p>Click below to deploy to your Netlify account</p>
+        
+        <a href="https://app.netlify.com/start/deploy?repository=https://github.com/raviramp36/singe-token-dashboard&base=main" class="btn">
+            🚀 Deploy to Netlify
+        </a>
+        
+        <div class="steps">
+            <h3>What will happen:</h3>
+            <ol>
+                <li>Click the button above</li>
+                <li>Netlify will connect to your GitHub</li>
+                <li>Select the <code>singe-token-dashboard</code> repo</li>
+                <li>Build: (leave empty)</li>
+                <li>Publish: <code>.</code> (dot)</li>
+                <li>Click Deploy!</li>
+            </ol>
+        </div>
+        
+        <p style="margin-top: 30px; color: #888;">
+            Repo: github.com/raviramp36/singe-token-dashboard
+        </p>
+    </div>
+</body>
+</html>
